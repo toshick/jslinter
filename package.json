@@ -1,0 +1,35 @@
+{
+  "name": "jslinter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --reporter dot",
+    "eslint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshick/jslinter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshick/jslinter/issues"
+  },
+  "homepage": "https://github.com/toshick/jslinter#readme",
+  "dependencies": {
+    "eslint-plugin-rulesdir": "^0.2.0",
+    "mocha": "^8.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.3.2"
+  }
+}
